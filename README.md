@@ -31,7 +31,6 @@ Strategy game written in Go
 * state (created, started, completed)
 * active player
 * turn status
-* possible moves
 
 ### Action
 * id
@@ -47,4 +46,21 @@ Strategy game written in Go
 * id
 * player id
 * action id
-* 
+
+### Board
+* id
+* name
+* creator
+* regions
+* districts
+ 
+### Region
+* id
+* name
+* creator
+
+### District
+* id
+* name
+* adjacent districts
+* region
