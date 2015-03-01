@@ -1,4 +1,4 @@
-# grollo
+# districts
 Strategy game written in Go
 
 ## Objects
