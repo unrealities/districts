@@ -1,7 +1,6 @@
 package main
 
 import (
-	"log"
 	"net/http"
 )
 
@@ -10,7 +9,12 @@ var (
 	VERSION = "0.0.1"
 )
 
+func init() {
+	r := Routes()
+	http.Handle("/", r)
+}
+
 func main() {
 	r := Routes()
-	log.Fatal(http.ListenAndServe(":8080", r))
+	http.ListenAndServe(":8080", r)
 }
