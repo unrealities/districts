@@ -1,0 +1,10 @@
+{
+	"ImportPath": "github.com/unrealities/districts",
+	"GoVersion": "go1.4.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/julienschmidt/httprouter",
+			"Rev": "bde5c16eb82ff15a1734a3818d9b9547065f65b1"
+		}
+	]
+}
