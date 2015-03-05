@@ -15,6 +15,7 @@ func Routes() http.Handler {
 	router := httprouter.New()
 
 	router.GET("/", Index)
+	router.ServeFiles("/static/*filepath", http.Dir("static"))
 
 	return router
 }

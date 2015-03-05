@@ -53,7 +53,7 @@ Strategy game written in Go
 * creator
 * regions
 * districts
- 
+
 ### Region
 * id
 * name
